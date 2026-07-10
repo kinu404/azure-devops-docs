@@ -60,11 +60,9 @@ Review the migrated repository to confirm that key content, access, and visibili
 
 After migration, follow GitHub's guidance to reclaim mannequins so commits and pull requests are correctly attributed to GitHub user accounts. For more information, see [Reclaiming mannequins for GitHub Enterprise Importer](https://docs.github.com/migrations/using-github-enterprise-importer/completing-your-migration-with-github-enterprise-importer/reclaiming-mannequins-for-github-enterprise-importer).
 
-## Features in development
+## Azure Boards Connection
 
-When available, ELM provisions the Azure Boards Connection for the migrated repository so teams can link work items from GitHub pull requests by using the `AB#<workItemId>` syntax without completing that connection manually after cutover.
-
-<!-- TODO: When pipeline rewiring ships, document the rewiring command/flow and remove the "Rewire Azure Pipelines" item from overview.md "What you do manually." When Azure Boards connection support ships, document the provisioning behavior and remove the (Future) markers in prerequisites.md and overview.md. -->
+ELM provisions the Azure Boards Connection for the migrated repository so teams can link work items from GitHub pull requests by using the `AB#<workItemId>` syntax without completing that connection manually after cutover.
 
 ## Related content
 

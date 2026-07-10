@@ -1,16 +1,179 @@
 ---
 title: "What's new in Azure DevOps docs"
 description: "What's new in the Azure DevOps documentation."
-ms.date: 06/16/2026
+ms.date: 07/07/2026
 ---
 
 # What's new in Azure DevOps docs
 
 Welcome to what's new in the Azure DevOps docs. The following sections provide details on the previous three months of new and updated content.
 
-## May 2026
+## June 2026
 
 ## Highlights
+
+### New features
+
+- [Introduction to Enterprise Live Migrations (ELM)](/azure/devops/repos/enterprise-live-migrations/overview) — New documentation set introducing Enterprise Live Migrations (ELM) from Azure DevOps to GitHub.
+- [Get started with Copilot code review for pull requests](/azure/devops/repos/git/copilot-code-reviews) — New guidance on using Copilot to review pull requests in Azure Repos.
+- [Copilot Autofix for code scanning in GitHub Advanced Security for Azure DevOps (Preview)](/azure/devops/repos/security/github-advanced-security-code-scanning-autofix) — New article introducing Copilot Autofix for code scanning alerts.
+- [Agent software version 5](/azure/devops/pipelines/agents/v5-agent) — New reference for the v5 pipeline agent.
+- [GitHub-hosted agents for Azure Pipelines (pay-as-you-go)](/azure/devops/pipelines/agents/github-hosted) — New article covering pay-as-you-go GitHub-hosted agents for Azure Pipelines.
+- [Convert service connections from the Azure DevOps issuer to the Microsoft Entra issuer](/azure/devops/pipelines/release/convert-service-connections) — New guidance for migrating workload identity service connections to the Microsoft Entra issuer.
+
+### Other notable updates
+
+- [Use backlogs to manage projects](/azure/devops/boards/backlogs/backlogs-overview) — Major refresh of backlog management guidance.
+- [Default processes and process templates](/azure/devops/boards/work-items/guidance/choose-process) — Significant revisions to default processes and process templates.
+- [Review and comment on pull requests](/azure/devops/repos/git/review-pull-requests) — Substantial updates to pull request review guidance.
+- [Configure and pay for parallel jobs](/azure/devops/pipelines/licensing/concurrent-jobs) — Major updates to parallel jobs configuration and billing.
+
+## Updates by scenario
+
+### CI/CD
+
+- [Agent software version 5](/azure/devops/pipelines/agents/v5-agent)
+- [GitHub-hosted agents for Azure Pipelines (pay-as-you-go)](/azure/devops/pipelines/agents/github-hosted)
+- [Convert service connections from the Azure DevOps issuer to the Microsoft Entra issuer](/azure/devops/pipelines/release/convert-service-connections)
+- [Configure and pay for parallel jobs](/azure/devops/pipelines/licensing/concurrent-jobs)
+- [Set a Resource Manager workload identity service connection](/azure/devops/pipelines/release/configure-workload-identity)
+- [Troubleshoot Azure Resource Manager service connections](/azure/devops/pipelines/release/azure-rm-endpoint)
+
+### Work tracking
+
+- [Use backlogs to manage projects](/azure/devops/boards/backlogs/backlogs-overview)
+- [Default processes and process templates](/azure/devops/boards/work-items/guidance/choose-process)
+- [Update Work Items with Templates in Azure Boards](/azure/devops/boards/backlogs/work-item-template)
+- [Connect Azure Boards to Excel (legacy)](/azure/devops/boards/backlogs/office/track-work)
+- [Understand CMMI process template artifacts](/azure/devops/boards/work-items/guidance/cmmi-process)
+- [Scale Agile practices with Azure Boards](/azure/devops/boards/plans/index)
+- [Bulk Modify Azure Boards Work Items with Excel](/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel)
+- [Use GitHub Copilot with Azure Boards](/azure/devops/boards/github/work-item-integration-github-copilot)
+- [Configure your backlog view in Azure Boards](/azure/devops/boards/backlogs/configure-your-backlog-view)
+- [About work items and work item types](/azure/devops/boards/work-items/about-work-items)
+
+### Code and version control
+
+- [Introduction to Enterprise Live Migrations (ELM)](/azure/devops/repos/enterprise-live-migrations/overview)
+- [Get started with Copilot code review for pull requests](/azure/devops/repos/git/copilot-code-reviews)
+- [Copilot Autofix for code scanning in GitHub Advanced Security for Azure DevOps (Preview)](/azure/devops/repos/security/github-advanced-security-code-scanning-autofix)
+- [Review and comment on pull requests](/azure/devops/repos/git/review-pull-requests)
+- [Use SSH key authentication](/azure/devops/repos/git/use-ssh-keys-to-authenticate)
+
+### Other
+
+- [Publish and restore Cargo packages](/azure/devops/artifacts/get-started-cargo)
+- [Use npm scopes](/azure/devops/artifacts/npm/scopes)
+- [Set up the remote Azure DevOps MCP Server (preview)](/azure/devops/mcp-server/remote-mcp-server)
+- [Get started with Azure DevOps Data Migration Tool](/azure/devops/migrate/migration-get-started)
+- [Markdown Syntax for Files, Widgets, Wikis](/azure/devops/project/wiki/markdown-guidance)
+
+## By documentation area
+
+- [Azure Artifacts](#june-2026-azure-artifacts)
+- [Azure Boards](#june-2026-azure-boards)
+- [Azure DevOps MCP Server](#june-2026-azure-devops-mcp-server)
+- [Azure Pipelines](#june-2026-azure-pipelines)
+- [Azure Repos](#june-2026-azure-repos)
+- [Migrate](#june-2026-migrate)
+- [Project](#june-2026-project)
+
+<a id="june-2026-azure-artifacts"></a>
+
+### Azure Artifacts
+
+**Updated articles**
+
+- [Publish and restore Cargo packages](/azure/devops/artifacts/get-started-cargo)
+- [Use npm scopes](/azure/devops/artifacts/npm/scopes)
+
+<a id="june-2026-azure-boards"></a>
+
+### Azure Boards
+
+**Updated articles**
+
+- [Use backlogs to manage projects](/azure/devops/boards/backlogs/backlogs-overview)
+- [Default processes and process templates](/azure/devops/boards/work-items/guidance/choose-process)
+- [Update Work Items with Templates in Azure Boards](/azure/devops/boards/backlogs/work-item-template)
+- [Connect Azure Boards to Excel (legacy)](/azure/devops/boards/backlogs/office/track-work)
+- [Understand CMMI process template artifacts](/azure/devops/boards/work-items/guidance/cmmi-process)
+- [Scale Agile practices with Azure Boards](/azure/devops/boards/plans/index)
+- [Bulk Modify Azure Boards Work Items with Excel](/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel)
+- [Use GitHub Copilot with Azure Boards](/azure/devops/boards/github/work-item-integration-github-copilot)
+- [Configure your backlog view in Azure Boards](/azure/devops/boards/backlogs/configure-your-backlog-view)
+- [Quickstart - Use your Kanban board](/azure/devops/boards/boards/kanban-quickstart)
+- [About work items and work item types](/azure/devops/boards/work-items/about-work-items)
+- [About Kanban boards](/azure/devops/boards/boards/kanban-overview)
+- [Agile Workflow in Azure Boards](/azure/devops/boards/work-items/guidance/agile-process-workflow)
+- [Best practices for Agile product management](/azure/devops/boards/best-practices-agile-project-management)
+- [Configure and customize Azure Boards](/azure/devops/boards/configure-customize)
+
+<a id="june-2026-azure-devops-mcp-server"></a>
+
+### Azure DevOps MCP Server
+
+**Updated articles**
+
+- [Set up the remote Azure DevOps MCP Server (preview)](/azure/devops/mcp-server/remote-mcp-server)
+
+<a id="june-2026-azure-pipelines"></a>
+
+### Azure Pipelines
+
+**New articles**
+
+- [Agent software version 5](/azure/devops/pipelines/agents/v5-agent)
+- [GitHub-hosted agents for Azure Pipelines (pay-as-you-go)](/azure/devops/pipelines/agents/github-hosted)
+- [Convert service connections from the Azure DevOps issuer to the Microsoft Entra issuer](/azure/devops/pipelines/release/convert-service-connections)
+
+**Updated articles**
+
+- [Configure and pay for parallel jobs](/azure/devops/pipelines/licensing/concurrent-jobs)
+- [Set a Resource Manager workload identity service connection](/azure/devops/pipelines/release/configure-workload-identity)
+- [Troubleshoot Azure Resource Manager service connections](/azure/devops/pipelines/release/azure-rm-endpoint)
+
+<a id="june-2026-azure-repos"></a>
+
+### Azure Repos
+
+**New articles**
+
+- [Get started with Copilot code review for pull requests](/azure/devops/repos/git/copilot-code-reviews)
+- [Copilot Autofix for code scanning in GitHub Advanced Security for Azure DevOps (Preview)](/azure/devops/repos/security/github-advanced-security-code-scanning-autofix)
+- [Introduction to Enterprise Live Migrations (ELM)](/azure/devops/repos/enterprise-live-migrations/overview)
+- [Prerequisites for Enterprise Live Migrations (ELM)](/azure/devops/repos/enterprise-live-migrations/prerequisites)
+- [Start an Enterprise Live Migrations (ELM)](/azure/devops/repos/enterprise-live-migrations/start-migration)
+- [Monitor an Enterprise Live Migrations (ELM)](/azure/devops/repos/enterprise-live-migrations/monitor-migration)
+- [Cutover to GitHub for an Enterprise Live Migrations (ELM)](/azure/devops/repos/enterprise-live-migrations/cut-over-to-github)
+- [Post-migration activities for Enterprise Live Migrations (ELM)](/azure/devops/repos/enterprise-live-migrations/post-migration)
+- [Enterprise Live Migrations (ELM) CLI reference](/azure/devops/repos/enterprise-live-migrations/elm-cli-reference)
+- [Troubleshoot Enterprise Live Migrations (ELM)](/azure/devops/repos/enterprise-live-migrations/troubleshoot)
+
+**Updated articles**
+
+- [Review and comment on pull requests](/azure/devops/repos/git/review-pull-requests)
+- [Use SSH key authentication](/azure/devops/repos/git/use-ssh-keys-to-authenticate)
+
+<a id="june-2026-migrate"></a>
+
+### Migrate
+
+**Updated articles**
+
+- [Get started with Azure DevOps Data Migration Tool](/azure/devops/migrate/migration-get-started)
+
+<a id="june-2026-project"></a>
+
+### Project
+
+**Updated articles**
+
+- [Markdown Syntax for Files, Widgets, Wikis](/azure/devops/project/wiki/markdown-guidance)
+
+## May 2026
+
+### Highlights
 
 ### New features
 
@@ -26,7 +189,7 @@ Welcome to what's new in the Azure DevOps docs. The following sections provide d
 - [Use backlogs to manage projects](/azure/devops/boards/backlogs/backlogs-overview) — Significant updates to the backlog management overview.
 - [Set up the remote Azure DevOps MCP Server (preview)](/azure/devops/mcp-server/remote-mcp-server) — Major refresh of remote Azure DevOps MCP Server preview setup.
 
-## Updates by scenario
+### Updates by scenario
 
 ### CI/CD
 
@@ -75,20 +238,6 @@ Welcome to what's new in the Azure DevOps docs. The following sections provide d
 - [Resolve migration errors](/azure/devops/migrate/migration-troubleshooting)
 - [Manage work item fields using witadmin](/azure/devops/reference/witadmin/manage-work-item-fields)
 
-## By documentation area
-
-- [Administration](#may-2026-administration)
-- [Artifacts](#may-2026-artifacts)
-- [Azure Boards](#may-2026-azure-boards)
-- [Azure Pipelines](#may-2026-azure-pipelines)
-- [Azure Repos](#may-2026-azure-repos)
-- [Azure Test Plans](#may-2026-azure-test-plans)
-- [Integrate](#may-2026-integrate)
-- [Managed DevOps Pools](#may-2026-managed-devops-pools)
-- [MCP Server](#may-2026-mcp-server)
-- [Migrate](#may-2026-migrate)
-- [Reference](#may-2026-reference)
-
 <a id="may-2026-administration"></a>
 
 ### Administration
@@ -100,9 +249,9 @@ Welcome to what's new in the Azure DevOps docs. The following sections provide d
 - [Restrict organization creation](/azure/devops/organizations/accounts/azure-ad-tenant-policy-restrict-org-creation)
 - [Automate security auditing and administration](/azure/devops/organizations/security/security-scripts)
 
-<a id="may-2026-artifacts"></a>
+<a id="may-2026-azure-artifacts"></a>
 
-### Artifacts
+### Azure Artifacts
 
 **Updated articles**
 
@@ -120,6 +269,18 @@ Welcome to what's new in the Azure DevOps docs. The following sections provide d
 - [Use backlogs to manage projects](/azure/devops/boards/backlogs/backlogs-overview)
 - [Filter backlogs, boards, and plans for focused work management](/azure/devops/boards/backlogs/filter-backlogs-boards-plans)
 - [Copy or clone work items](/azure/devops/boards/backlogs/copy-clone-work-items)
+
+<a id="may-2026-azure-devops-mcp-server"></a>
+
+### Azure DevOps MCP Server
+
+**New articles**
+
+- [Troubleshoot the remote Azure DevOps MCP Server](/azure/devops/mcp-server/remote-mcp-server-troubleshooting)
+
+**Updated articles**
+
+- [Set up the remote Azure DevOps MCP Server (preview)](/azure/devops/mcp-server/remote-mcp-server)
 
 <a id="may-2026-azure-pipelines"></a>
 
@@ -166,18 +327,6 @@ Welcome to what's new in the Azure DevOps docs. The following sections provide d
 
 - [Configure images](/azure/devops/managed-devops-pools/configure-images)
 
-<a id="may-2026-mcp-server"></a>
-
-### MCP Server
-
-**New articles**
-
-- [Troubleshoot the remote Azure DevOps MCP Server](/azure/devops/mcp-server/remote-mcp-server-troubleshooting)
-
-**Updated articles**
-
-- [Set up the remote Azure DevOps MCP Server (preview)](/azure/devops/mcp-server/remote-mcp-server)
-
 <a id="may-2026-migrate"></a>
 
 ### Migrate
@@ -218,7 +367,7 @@ Welcome to what's new in the Azure DevOps docs. The following sections provide d
 - [Troubleshoot notification emails](/azure/devops/organizations/notifications/troubleshoot-not-getting-email)
 - [Access Azure DevOps Audit Logs, Export, and Filter](/azure/devops/organizations/audit/azure-devops-auditing)
 
-### Artifacts
+### Azure Artifacts
 
 #### Updated articles
 
@@ -385,256 +534,3 @@ Welcome to what's new in the Azure DevOps docs. The following sections provide d
 - [Tools and Clients that Connect to Azure DevOps](/azure/devops/user-guide/tools)
 - [Look up your Azure DevOps platform and version](/azure/devops/user-guide/lookup-platform-version)
 - [Get support and submit feedback](/azure/devops/user-guide/provide-feedback)
-
-## March 2026
-
-### Administration
-
-#### Updated articles
-
-- [Select backlog navigation levels](/azure/devops/organizations/settings/select-backlog-navigation-levels)
-- [Apply rules to workflow states (Inheritance process)](/azure/devops/organizations/settings/work/apply-rules-to-workflow-states)
-- [Change a project process from Agile to Scrum](/azure/devops/organizations/settings/work/change-process-agile-to-scrum)
-- [Change a project process from Scrum to Agile](/azure/devops/organizations/settings/work/change-process-scrum-to-agile)
-- [Customize the web layout for a work item type (Inheritance process)](/azure/devops/organizations/settings/work/customize-process-form)
-- [Add and manage work item types](/azure/devops/organizations/settings/work/customize-process-work-item-type)
-- [Customize a project by using an inherited process](/azure/devops/organizations/settings/work/customize-process)
-- [Sample custom rule scenarios](/azure/devops/organizations/settings/work/rule-samples)
-- [Restrict organization creation](/azure/devops/organizations/accounts/azure-ad-tenant-policy-restrict-org-creation)
-- [Data locations for Azure DevOps](/azure/devops/organizations/security/data-location)
-- [Add a Microsoft Entra group to a built-in security group](/azure/devops/organizations/security/add-ad-aad-built-in-security-groups)
-- [Look up an Azure DevOps Administrator](/azure/devops/organizations/security/look-up-azure-devops-administrator)
-- [Manage access to specific features](/azure/devops/organizations/security/restrict-access)
-- [Set object-level permissions](/azure/devops/organizations/security/set-object-level-permissions)
-- [About teams and Agile tools](/azure/devops/organizations/settings/about-teams-and-settings)
-- [Manage permissions with command line tool](/azure/devops/organizations/security/manage-tokens-namespaces)
-- [Add organization users and manage access](/azure/devops/organizations/accounts/add-organization-users)
-- [Revoke personal access tokens for organization users (for admins)](/azure/devops/organizations/accounts/admin-revoke-user-pats)
-- [Assign access levels with group rules](/azure/devops/organizations/accounts/assign-access-levels-by-group-membership)
-- [Set up Conditional Access policies on Azure DevOps](/azure/devops/organizations/accounts/conditional-access-policies)
-- [Connect your organization to Microsoft Entra ID](/azure/devops/organizations/accounts/connect-organization-to-azure-ad)
-- [Create an organization](/azure/devops/organizations/accounts/create-organization)
-- [Remove users from Azure DevOps](/azure/devops/organizations/accounts/delete-organization-users)
-- [Manage access with Microsoft Entra groups](/azure/devops/organizations/accounts/manage-azure-active-directory-groups)
-- [Manage personal access tokens using policies (for administrators)](/azure/devops/organizations/accounts/manage-pats-with-policies-for-administrators)
-- [Assign an owner to an orphaned organization](/azure/devops/organizations/accounts/resolve-orphaned-organization)
-- [Use personal access tokens](/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate)
-- [Access, export, and filter audit log](/azure/devops/organizations/audit/azure-devops-auditing)
-- [Manage paid access for users](/azure/devops/organizations/billing/buy-basic-access-add-users)
-- [Manage billing](/azure/devops/organizations/billing/set-up-billing-for-your-organization-vs)
-- [Manage notifications for your team, project, or organization](/azure/devops/organizations/notifications/manage-team-group-global-organization-notifications)
-- [Manage your personal notifications](/azure/devops/organizations/notifications/manage-your-personal-notifications)
-- [Default and supported notifications](/azure/devops/organizations/notifications/oob-built-in-notifications)
-- [Create a project in Azure DevOps](/azure/devops/organizations/projects/create-project)
-- [Delete a project](/azure/devops/organizations/projects/delete-project)
-- [View and update project summary page](/azure/devops/organizations/projects/project-vision-status)
-- [Rename a project in Azure DevOps](/azure/devops/organizations/projects/rename-project)
-- [Create or add a team](/azure/devops/organizations/settings/add-teams)
-- [Add and manage information banners in Azure DevOps](/azure/devops/organizations/settings/manage-banners)
-- [Rename or remove a team](/azure/devops/organizations/settings/rename-remove-team)
-- [Define area paths and assign to a team](/azure/devops/organizations/settings/set-area-paths)
-- [Define iteration paths (sprints) and configure team iterations](/azure/devops/organizations/settings/set-iteration-paths-sprints)
-- [Add and manage fields (Inheritance process)](/azure/devops/organizations/settings/work/customize-process-field)
-- [Customize the workflow (Inheritance process)](/azure/devops/organizations/settings/work/customize-process-workflow)
-- [Tutorial: Create and manage inherited processes](/azure/devops/organizations/settings/work/manage-process)
-- [Manage and configure team tools](/azure/devops/organizations/settings/manage-teams)
-- [Turn a service on or off](/azure/devops/organizations/settings/set-services)
-
-### Artifacts
-
-#### New articles
-
-- [Set up an internal feed as an upstream source](/azure/devops/artifacts/how-to/upstream-internal-feed)
-
-#### Updated articles
-
-- [Consume packages from Python package index (PyPI)](/azure/devops/artifacts/python/use-packages-from-pypi)
-- [Package sizes and count limits](/azure/devops/artifacts/reference/limits)
-- [Universal Packages upstream sources](/azure/devops/artifacts/universal-packages/universal-packages-upstream)
-
-### Azure Boards
-
-#### Updated articles
-
-- [Drive Git development from a work item in Azure Boards](/azure/devops/boards/backlogs/connect-work-items-to-git-dev-ops)
-- [Manage problems or impediments in Azure Boards](/azure/devops/boards/backlogs/manage-issues-impediments)
-- [Manage columns in a work item list in Azure Boards](/azure/devops/boards/backlogs/set-column-options)
-- [Set Work in Progress limits](/azure/devops/boards/boards/wip-limits)
-- [Use the Dependency Tracker extension](/azure/devops/boards/extensions/dependency-tracker)
-- [Add status badges for your GitHub repo](/azure/devops/boards/github/configure-status-badges)
-- [Connect Azure Boards to GitHub (cloud)](/azure/devops/boards/github/connect-to-github)
-- [Example query charts](/azure/devops/boards/queries/example-query-charts)
-- [Set permissions on queries and query folders](/azure/devops/boards/queries/set-query-permissions)
-- [Add tasks to backlog items for sprint planning](/azure/devops/boards/sprints/add-tasks)
-- [Adjust work to fit sprint capacity](/azure/devops/boards/sprints/adjust-work)
-- [Sprint and scrum best practices](/azure/devops/boards/sprints/best-practices-scrum)
-- [Customize cards on a sprint taskboard in Azure Boards](/azure/devops/boards/sprints/customize-taskboard)
-- [5. Share your sprint plan](/azure/devops/boards/sprints/share-plan)
-- [6. Update and monitor your Taskboard](/azure/devops/boards/sprints/task-board)
-- [Upload or download a process template](/azure/devops/boards/work-items/guidance/manage-process-templates)
-- [Modify work items in bulk in Azure Boards](/azure/devops/boards/backlogs/bulk-modify-work-items)
-- [Copy or clone work items](/azure/devops/boards/backlogs/copy-clone-work-items)
-- [Define features and epics to organize your backlog](/azure/devops/boards/backlogs/define-features-epics)
-- [Filter and focus your work in Azure Boards](/azure/devops/boards/backlogs/filter-backlogs-boards-plans)
-- [Define, capture, triage, and manage bugs in Azure Boards](/azure/devops/boards/backlogs/manage-bugs)
-- [Manage work items effectively](/azure/devops/boards/backlogs/manage-work-items)
-- [Bulk move work items and change the work item type in Azure Boards](/azure/devops/boards/backlogs/move-change-type)
-- [Tutorial: Organize your backlog and map child work items to parents in Azure Boards](/azure/devops/boards/backlogs/organize-backlog)
-- [Remove, delete, or restore work items in Azure Boards](/azure/devops/boards/backlogs/remove-delete-work-items)
-- [Manage columns on your board](/azure/devops/boards/boards/add-columns)
-- [Tutorial: Add tasks or child items as checklist items](/azure/devops/boards/boards/add-task-checklists)
-- [Customize cards on a board](/azure/devops/boards/boards/customize-cards)
-- [Expedite work using swimlanes](/azure/devops/boards/boards/expedite-work)
-- [Add board features and epics](/azure/devops/boards/boards/kanban-epics-features-stories)
-- [Plan and track work in Azure Boards](/azure/devops/boards/get-started/plan-track-work)
-- [Add or edit a Delivery Plan](/azure/devops/boards/plans/add-edit-delivery-plan)
-- [Configure a hierarchy of teams](/azure/devops/boards/plans/configure-hierarchical-teams)
-- [Manage product and portfolio backlogs](/azure/devops/boards/plans/portfolio-management)
-- [Use team delivery plans in Azure Boards](/azure/devops/boards/plans/review-team-plans)
-- [Implement SAFe® with Azure Boards - Complete guide](/azure/devops/boards/plans/safe-configure-boards)
-- [Track dependencies in Delivery Plans](/azure/devops/boards/plans/track-dependencies)
-- [Add work item tags to categorize and filter lists and boards](/azure/devops/boards/queries/add-tags-to-work-items)
-- [Create a query based on build and test integration fields](/azure/devops/boards/queries/build-test-integration)
-- [Query work item history and discussion fields](/azure/devops/boards/queries/history-and-auditing)
-- [Export, update, and import bulk work items with CSV files](/azure/devops/boards/queries/import-work-items-from-csv)
-- [Query work items by link or attachment count](/azure/devops/boards/queries/linking-attachments)
-- [Query by rank and picklist value](/azure/devops/boards/queries/planning-ranking-priorities)
-- [Query by area or iteration path](/azure/devops/boards/queries/query-by-area-iteration-path)
-- [Query by date or current iteration](/azure/devops/boards/queries/query-by-date-or-current-iteration)
-- [Query by assignment or workflow changes](/azure/devops/boards/queries/query-by-workflow-changes)
-- [Query by field value comparisons](/azure/devops/boards/queries/query-field-value)
-- [Query by numeric fields](/azure/devops/boards/queries/query-numeric)
-- [Run a semantic work item search](/azure/devops/boards/queries/search-box-queries)
-- [Query by titles, IDs, and rich-text fields](/azure/devops/boards/queries/titles-ids-descriptions)
-- [Define a work item query](/azure/devops/boards/queries/using-queries)
-- [View, run, or email a work item query](/azure/devops/boards/queries/view-run-query)
-- [Work Item Query Language (WIQL) syntax reference](/azure/devops/boards/queries/wiql-syntax)
-- [1. Assign backlog items to a sprint in Azure Boards](/azure/devops/boards/sprints/assign-work-sprint)
-- [Manage sprint timelines](/azure/devops/boards/sprints/define-sprints)
-- [End-of-sprint activities](/azure/devops/boards/sprints/end-sprint-activities)
-- [Forecast your product backlog](/azure/devops/boards/sprints/forecast)
-- [3. Determine and set sprint capacity in Azure Boards](/azure/devops/boards/sprints/set-capacity)
-- [Autocomplete work items with pull requests](/azure/devops/boards/work-items/auto-complete-work-items-pull-requests)
-- [Send an email with work items](/azure/devops/boards/work-items/email-work-items)
-- [Follow work items and pull requests](/azure/devops/boards/work-items/follow-work-items)
-- [Move work items from one team to another team](/azure/devops/boards/work-items/move-work-items)
-- [View and add work items](/azure/devops/boards/work-items/view-add-work-items)
-- [List work item fields and attributes](/azure/devops/boards/work-items/work-item-fields)
-
-### Azure DevOps Reporting and Analytics service
-
-#### Updated articles
-
-- [Transform Analytics data to generate Power BI reports](/azure/devops/report/powerbi/transform-analytics-data-report-generation)
-- [Create a Power BI report from a default Analytics view](/azure/devops/report/powerbi/create-quick-report)
-- [Query trend data with OData aggregation](/azure/devops/report/extend-analytics/querying-for-trend-data)
-- [Create an Analytics view in Azure DevOps](/azure/devops/report/powerbi/analytics-views-create)
-- [Aggregate work tracking data by using Analytics](/azure/devops/report/extend-analytics/aggregated-data-analytics)
-- [Configure and monitor sprint burndown](/azure/devops/report/dashboards/configure-sprint-burndown)
-- [Track progress with status and trend query-based charts](/azure/devops/report/dashboards/charts)
-- [Construct OData queries for Analytics in Azure DevOps](/azure/devops/report/analytics/analytics-query-parts)
-- [Configure a burndown or burnup widget](/azure/devops/report/dashboards/configure-burndown-burnup-widgets)
-- [Configure lead time and cycle time widgets](/azure/devops/report/dashboards/cycle-time-and-lead-time)
-- [Design effective dashboards in Azure DevOps](/azure/devops/report/dashboards/dashboard-focus)
-- [Define basic queries using OData Analytics](/azure/devops/report/extend-analytics/wit-analytics)
-- [Create a Power BI report with an OData query](/azure/devops/report/powerbi/create-quick-report-odataq)
-- [Connect with data by using Power BI and OData queries](/azure/devops/report/powerbi/odataquery-connect)
-- [Secure your analytics and reporting](/azure/devops/report/secure-your-analytics-reporting)
-
-### Azure Pipelines
-
-#### New articles
-
-- [Antivirus scanning exclusions for Azure DevOps](/azure/devops/pipelines/troubleshooting/anti-virus-exclusion)
-
-#### Updated articles
-
-- [Deploy multiple branches to different stages with Classic release pipelines](/azure/devops/pipelines/release/deploy-multiple-branches)
-- [What is Azure Pipelines?](/azure/devops/pipelines/get-started/what-is-azure-pipelines)
-- [Use secure files](/azure/devops/pipelines/library/secure-files)
-- [Build, test, and deploy PHP apps](/azure/devops/pipelines/ecosystems/php)
-- [Create your first pipeline](/azure/devops/pipelines/create-first-pipeline)
-- [Customize your pipeline](/azure/devops/pipelines/customize-pipeline)
-- [Key Azure Pipelines concepts](/azure/devops/pipelines/get-started/key-pipelines-concepts)
-- [Logging commands](/azure/devops/pipelines/scripts/logging-commands)
-- [Define variables](/azure/devops/pipelines/process/variables)
-- [Check out multiple repositories in your pipeline](/azure/devops/pipelines/repos/multi-repo-checkout)
-
-### Azure Repos
-
-#### Updated articles
-
-- [Set Git repository settings and policies](/azure/devops/repos/git/repository-settings)
-- [Create a README file for your repo](/azure/devops/repos/git/create-a-readme)
-- [Delete a Git repo from your project](/azure/devops/repos/git/delete-existing-repo)
-- [Move Git repositories to another project with full-fidelity history](/azure/devops/repos/git/move-git-repos-between-team-projects)
-- [Remove a large binary from your Git history to manage the size of cloned repositories](/azure/devops/repos/git/remove-binaries)
-- [Rename a Git repository in your project](/azure/devops/repos/git/repo-rename)
-- [Set Git repository permissions](/azure/devops/repos/git/set-git-repository-permissions)
-- [Configure GitHub Advanced Security for Azure DevOps](/azure/devops/repos/security/configure-github-advanced-security-features)
-
-### Azure Test Plans
-
-#### Updated articles
-
-- [Bulk import or export test cases](/azure/devops/test/bulk-import-export-test-cases)
-- [Copy or clone test plans, test suites, and test cases](/azure/devops/test/copy-clone-test-items)
-- [Create test plans and test suites](/azure/devops/test/create-a-test-plan)
-- [Create and manage manual test cases](/azure/devops/test/create-test-cases)
-- [Test Plans FAQs](/azure/devops/test/reference-qa)
-- [Run automated tests from test plans](/azure/devops/test/run-automated-tests-from-test-hub)
-- [Manage test runs in Azure DevOps Test Plans](/azure/devops/test/test-runs)
-
-### Extend
-
-#### Updated articles
-
-- [Publish an Azure DevOps extension from the command line](/azure/devops/extend/publish/command-line)
-
-### Integrate
-
-#### Updated articles
-
-- [Authentication methods for Azure DevOps](/azure/devops/integrate/get-started/authentication/authentication-guidance)
-- [Best practices for integration](/azure/devops/integrate/concepts/integration-bestpractices)
-- [Use service principals and managed identities in Azure DevOps](/azure/devops/integrate/get-started/authentication/service-principal-managed-identity)
-- [.NET client library samples for Azure DevOps](/azure/devops/integrate/get-started/client-libraries/samples)
-- [REST API samples for Azure DevOps](/azure/devops/integrate/get-started/rest/samples)
-- [Get started with the REST APIs](/azure/devops/integrate/how-to/call-rest-api)
-- [Create a bug in Azure DevOps Services using .NET client libraries](/azure/devops/integrate/quickstarts/create-bug-quickstart)
-- [Fetch work items with queries programmatically](/azure/devops/integrate/quickstarts/work-item-quickstart)
-
-### Marketplace
-
-#### New articles
-
-- [Allow extensions to access local network resources](/azure/devops/marketplace/allow-extensions-local-network)
-
-### Miscellaneous
-
-#### Updated articles
-
-- [Azure DevOps documentation](/azure/devops/index)
-
-### Reference
-
-#### Updated articles
-
-- [Add or modify a work item type](/azure/devops/reference/add-modify-wit)
-- [Add a portfolio backlog level](/azure/devops/reference/add-portfolio-backlogs)
-- [Customize the work tracking web form](/azure/devops/reference/customize-wit-form)
-- [Change the workflow for a work item type](/azure/devops/reference/xml/change-workflow-wit)
-- [Provide help text, hyperlinks, or web content on a work item form](/azure/devops/reference/xml/provide-help-text-hyperlinks-web-content-form)
-- [Rollup of work and other fields](/azure/devops/reference/xml/support-rollup-of-work-and-other-fields)
-
-### User guide
-
-#### Updated articles
-
-- [Manage manual inline tests](/azure/devops/user-guide/add-run-manual-tests)
-- [Share your code by using Git](/azure/devops/user-guide/code-with-git)
-- [Manage your organization or collection](/azure/devops/user-guide/manage-organization-collection)
-- [Plan your organizational structure](/azure/devops/user-guide/plan-your-azure-devops-org-structure)
-- [Get started managing your project](/azure/devops/user-guide/project-admin-tutorial)
-- [What is Azure DevOps?](/azure/devops/user-guide/what-is-azure-devops)
-

@@ -110,7 +110,7 @@ In the changed files view of a pull request, changed lines are also annotated wi
 
 By default, the code coverage status check on pull requests is advisory - it doesn't block merges with low coverage. To ensure changes meet a minimum coverage threshold before merging, configure a branch policy that uses the coverage status check.
 
-Code coverage status posted from a pipeline follows the naming convention `{name-of-your-pipeline/codecoverage}`.
+Code coverage status posted from a pipeline follows the naming convention `{name-of-your-pipeline/codecoverage}`. For a full list of built-in Azure DevOps status checks and their `genre/name` identifiers, see [Available pull request status checks](/azure/devops/repos/git/available-pr-status-checks).
 
 > [!NOTE]
 > - Branch policies in Azure Repos (even optional policies) prevent pull requests from completing automatically if they fail. This behavior isn't specific to code coverage policy.

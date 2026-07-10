@@ -4,7 +4,7 @@ titleSuffix: Azure Repos
 description: Learn how to create pull requests or draft pull requests in Azure Repos using Git, and add details and reviewers. 
 ms.service: azure-devops-repos
 ms.topic: how-to
-ms.date: 02/15/2025
+ms.date: 07/06/2026
 monikerRange: '<= azure-devops'
 ms.subservice: azure-devops-repos-git
 ms.custom: devx-track-azurecli
@@ -120,6 +120,8 @@ To create a pull request:
 1. Right-click a branch and select **Create Pull Request**.
 
 1. Edit the source and target branches as needed, enter a title and optional description, and select **Create**.
+
+Visual Studio 2022 supports an in-IDE pull request experience for Azure DevOps repos (and GitHub). For more information, see [View, filter, and open pull requests](view-pull-requests.md).
 
 Visual Studio 2019 version 16.8 and later versions provides a Git version control experience while maintaining the **Team Explorer** Git user interface. To use **Team Explorer**, uncheck **Tools** > **Options** > **Preview Features** > **New Git user experience** from the menu bar. You can exercise Git features from either interface interchangeably.
 

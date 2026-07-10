@@ -2,7 +2,7 @@
 title: Deploy an Azure Pipelines agent on Windows
 description: Learn how to use Windows agents to build and deploy your Windows and Azure code for Azure Pipelines
 ms.topic: concept-article
-ms.date: 06/23/2026
+ms.date: 07/07/2026
 monikerRange: '<= azure-devops'
 ms.custom: copilot-scenario-highlight
 ai-usage: ai-assisted
@@ -30,7 +30,7 @@ This article provides guidance for using the [3.x agent software](/previous-vers
 :::moniker-end
 
 > [!NOTE]
-> The Windows ARM64 agent is now available in **public preview** for Windows 11. For more information, see the [v4 agent supported operating systems](v4-agent.md#upgrade-to-4x-agent-on-supported-operating-systems). 
+> The Windows ARM64 agent is generally available for Windows 11. For more information, see the [v4 agent supported operating systems](v4-agent.md#upgrade-to-4x-agent-on-supported-operating-systems). 
 
 [!INCLUDE [include](includes/concepts.md)]
 

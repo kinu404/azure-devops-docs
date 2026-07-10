@@ -5,7 +5,7 @@ description: Learn how to review Git history to find out when files changed, who
 ms.service: azure-devops-repos
 ms.topic: how-to
 monikerRange: '<= azure-devops'
-ms.date: 10/18/2022
+ms.date: 07/06/2026
 ms.subservice: azure-devops-repos-git
 ---
 
@@ -204,6 +204,8 @@ Visual Studio 2019 and earlier versions don't support branch comparison, so if y
 1. In the **Branch compare** view, choose the two branches that you want to compare. Select the **Files** tab for a diff view of the new, deleted, or modified lines in each changed file.
 
    :::image type="content" source="media/review-history/browser/branch-compare.png" border="true" alt-text="Screenshot of the Files tab in the Branch Compare view on the Azure DevOps repo page." lightbox="media/review-history/browser/branch-compare-lrg.png":::
+
+1. To compare specific commits instead of branch tips, select the version picker and choose the **Commits** tab. Search for and select a commit by its SHA to perform commit-to-commit or branch-to-commit comparisons directly in the UI, without needing to construct a URL manually.
 
 >[!NOTE]
 > GitHub supports branch comparison. To compare two branches, append `/compare/<branch1>...<branch2>` to your GitHub repo URL to navigate to the comparison page. The comparison page contains a diff view of each file that differs. For more information on branch comparison in GitHub, see [Comparing branches](https://docs.github.com/pull-requests/committing-changes-to-your-project/viewing-and-comparing-commits/comparing-commits#comparing-branches).

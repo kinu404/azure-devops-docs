@@ -139,11 +139,11 @@ The alphabetical index of fields uses annotations to denote the following criter
    
    - [ID](../../queries/titles-ids-descriptions.md#fields) (System)
    - [Impact Assessment](/previous-versions/azure/devops/boards/work-items/guidance/cmmi/guidance-requirements-field-reference-cmmi#fields) (CMMI)
-   - [Impact on Architecture](/previous-versions/azure/devops/boards/work-items/guidance/cmmi/guidance-change-request-field-reference-cmmi#fields) (CMMI)
-   - [Impact on Development](/previous-versions/azure/devops/boards/work-items/guidance/cmmi/guidance-change-request-field-reference-cmmi#fields) (CMMI)
-   - [Impact on Technical Publications](/previous-versions/azure/devops/boards/work-items/guidance/cmmi/guidance-change-request-field-reference-cmmi#fields) (CMMI)
-   - [Impact on Test](/previous-versions/azure/devops/boards/work-items/guidance/cmmi/guidance-change-request-field-reference-cmmi#fields) (CMMI)
-   - [Impact on User Experience](/previous-versions/azure/devops/boards/work-items/guidance/cmmi/guidance-change-request-field-reference-cmmi#fields) (CMMI)
+   - Impact on Architecture (CMMI)
+   - Impact on Development (CMMI)
+   - Impact on Technical Publications (CMMI)
+   - Impact on Test (CMMI)
+   - Impact on User Experience (CMMI)
    - [Integrated in Build](../../queries/build-test-integration.md#fields) (TCM)
    - [Issue](../../queries/build-test-integration.md#fields) (TCM)
    - [Iteration ID](../../queries/query-by-area-iteration-path.md#fields)  (System)
@@ -151,7 +151,7 @@ The alphabetical index of fields uses annotations to denote the following criter
    
    ### J-L-M-N
    
-   - [Justification](/previous-versions/azure/devops/boards/work-items/guidance/cmmi/guidance-change-request-field-reference-cmmi#fields) (CMMI)
+   - Justification (CMMI)
    - [Link Comment](../../queries/linking-attachments.md#fields) (System)
    - [Link Description](../../queries/linking-attachments.md#fields) (System)
    - [Local Data Source](../../queries/build-test-integration.md#fields) (TCM)
@@ -269,7 +269,7 @@ The following articles describe fields that are commonly used by several work it
 
 - [Requirements](/previous-versions/azure/devops/boards/work-items/guidance/cmmi/guidance-requirements-field-reference-cmmi#fields)
 - [Bugs](cmmi/guidance-bugs-issues-risks-field-reference-cmmi.md#fields)
-- [Change requests](/previous-versions/azure/devops/boards/work-items/guidance/cmmi/guidance-change-request-field-reference-cmmi#fields)
+- Change requests
 - [Issues](cmmi/guidance-bugs-issues-risks-field-reference-cmmi.md#fields)
 - [Review meetings](/previous-versions/azure/devops/boards/work-items/guidance/cmmi/guidance-review-meeting-field-reference-cmmi#fields)
 - [Risks](cmmi/guidance-bugs-issues-risks-field-reference-cmmi.md#fields) 

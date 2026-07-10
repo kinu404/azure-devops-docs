@@ -1,7 +1,7 @@
 ---
 title: Configure networking
 description: Learn how to configure networking for Managed DevOps Pools.
-ms.date: 06/11/2026
+ms.date: 07/06/2026
 ms.custom: sfi-image-nochange
 ms.topic: how-to
 ---
@@ -459,7 +459,7 @@ if ($unreachableUris.Count -eq 0) {
 
 ## Configure the Azure DevOps agent to run behind a proxy
 
-If you configured a proxy service on your image and want the workloads that run on your pool to run behind this proxy, you must add the following environment variables on your image:
+If you configured a proxy service on your image and want the workloads that run on your pool to run behind this proxy, the recommended approach is to add the following environment variables on your image:
 
 - `VSTS_AGENT_INPUT_PROXYURL`: The URL of the configured proxy to run behind.
 - `VSTS_AGENT_INPUT_PROXYUSERNAME`: The username needed to use the proxy.
@@ -468,6 +468,11 @@ If you configured a proxy service on your image and want the workloads that run 
 For Windows, these environment variables should be system environment variables. For Linux, these variables should be in the `/etc/environment` file. If you set these system variables incorrectly or without a configured proxy service on the image, provisioning of new agents fails with network connectivity issues.
 
 If you're migrating from Azure Virtual Machine Scale Sets agents and are already using the proxy environment variables on your image, you shouldn't need to make any changes. This process is described in [Azure Virtual Machine Scale Set agents: Customize pipeline agent configuration](/azure/devops/pipelines/agents/scale-set-agents#customizing-pipeline-agent-configuration).
+
+If you use an image that doesn't have the environment variables set, set a tag named `MdpProxyUri` on the pool specifying the proxy URL.
+
+> [!NOTE]
+> If the proxy doesn't allowlist the required endpoints for Managed DevOps Pools or otherwise blocks traffic, the Managed DevOps Pool provisioning fails. For more information on required endpoints, see [Restrict outbound connectivity](#restrict-outbound-connectivity).
 
 ## Related content
 

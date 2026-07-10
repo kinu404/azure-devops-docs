@@ -808,7 +808,7 @@ External services can use the PR [Status API](/rest/api/azure/devops/git/pull%20
 
 :::image type="content" source="media/branch-policies/status-checks-2020.png" alt-text="Screenshot of Require external services to approve.":::
 
-For instructions on configuring this policy, see [Configure a branch policy for an external service](pr-status-policy.md).
+For instructions on configuring this policy, see [Configure a branch policy for an external service](pr-status-policy.md). For a complete list of first-party Azure DevOps status checks and their `genre/name` identifiers, see [Available pull request status checks](available-pr-status-checks.md).
 
 ::: moniker-end 
 

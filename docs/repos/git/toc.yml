@@ -91,7 +91,9 @@
     - name: Manage your branches
       href: manage-your-branches.md
     - name: Set branch policies
-      href: branch-policies.md
+      href: branch-policies.md    
+    - name: Available pull request status checks
+      href: available-pr-status-checks.md
     - name: Set branch permissions
       href: branch-permissions.md
       displayname: security

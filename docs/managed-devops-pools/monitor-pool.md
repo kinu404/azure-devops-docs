@@ -1,7 +1,7 @@
 ---
 title: Monitor
 description: Learn how to view the health of your Managed DevOps Pools.
-ms.date: 06/29/2026
+ms.date: 07/07/2026
 ms.topic: concept-article
 ---
 
@@ -128,6 +128,7 @@ For a list of error codes, see the following [Error codes](#error-codes) section
 | `VirtualNetworkIsNotFound` | The Virtual Network might be deleted. |
 | `WorkerSetupFailed`, `UnableToDownloadWorkerCheckNetwork`, `UnableToDownloadWorkerCheckNetwork[<endpoint>]`  | [The Network infrastructure is blocking access to one of the prerequisite endpoints.](./configure-networking.md#restricting-outbound-connectivity) |
 | `UnableToDownloadWorkerCheckNetwork_TLSIssue` | [TLS Handshake failed when contacting prerequisite endpoints.](./configure-networking.md#restricting-outbound-connectivity) |
+| `ConstraintsCannotBeAllocated` | Allocation failed. VM(s) with the following constraints cannot be allocated, because the condition is too restrictive. Please remove some constraints and try again. |
 
 
 ## See also

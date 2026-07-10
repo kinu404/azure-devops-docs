@@ -9,7 +9,7 @@ ms.custom: cross-service
 ms.author: laurajiang
 author: laurajjiang
 monikerRange: 'azure-devops'
-ms.date: 06/15/2026
+ms.date: 07/06/2026
 zone_pivot_groups: configure-ghazdo-bundled-individual-products
 ---
 
@@ -197,6 +197,22 @@ The agent pool and scan schedule for default setup are shared across all reposit
 
 To generate alerts, default setup runs on a weekly schedule. Any detected vulnerabilities are displayed in the Advanced Security tab.
 
+### Copilot Autofix for code scanning
+
+Copilot Autofix is an AI-powered feature that analyzes CodeQL code scanning alerts and proposes targeted fixes. When you generate a fix for a supported alert, Copilot Autofix creates a pull request with the proposed code change so you can review, edit, and merge it through your normal pull request workflow.
+
+> [!NOTE]
+> Copilot Autofix is in limited public preview. To request access for your organization, [sign up for the public preview](https://aka.ms/ghazdo-autofix/preview).
+>
+> Functionality might change or be removed without notice. Preview features have no Service Level Agreement (SLA) and limited support.
+
+Keep the following constraints in mind when using Copilot Autofix:
+
+- Autofix applies only to **CodeQL-based code scanning alerts**. It doesn't generate fixes for dependency scanning or secret scanning alerts.
+- Autofix proposes a fix - it doesn't automatically remediate the alert. You must review the pull request, validate that the change is correct, and merge it manually before the alert is closed.
+
+For more information on enabling and using Copilot Autofix, see [Copilot Autofix for code scanning](github-advanced-security-code-scanning-autofix.md).
+
 ## Set up pull request annotations 
 
 For both dependency scanning and code scanning, annotations configure automatically for pull requests where a build validation policy applies with dependency scanning and/or code scanning tasks included in your pipeline. For more information on configuring build validation policies, see [Build validation](../git/branch-policies.md#build-validation).
@@ -233,7 +249,9 @@ To disable Advanced Security, any alerts and state of alerts get retained in the
 
 ## Related articles
 
+* [Available pull request status checks](../git/available-pr-status-checks.md)
 * [Code scanning alerts for GitHub Advanced Security for Azure DevOps](github-advanced-security-code-scanning.md)
+* [Copilot Autofix for code scanning](github-advanced-security-code-scanning-autofix.md)
 * [Dependency scanning alerts for GitHub Advanced Security for Azure DevOps](github-advanced-security-dependency-scanning.md)
 * [Secret scanning alerts for GitHub Advanced Security for Azure DevOps](github-advanced-security-secret-scanning.md)
 * [Permissions for GitHub Advanced Security for Azure DevOps](github-advanced-security-permissions.md)

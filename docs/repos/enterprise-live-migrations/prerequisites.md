@@ -58,14 +58,6 @@ The command returns the repository GUID. Save it for use when you start the migr
 
 - A GitHub Enterprise admin must create the personal access token (PAT) and be able to create a service connection in Azure DevOps. The admin then shares the service connection ID with the person running the migration.
 
-<!-- TODO: Pending confirmation, consider expanding this section to the following three bullets:
-- You must be a member of the target GitHub enterprise with admin access to the target organization. Enterprise admin access is required to create a PAT with the `admin:enterprise` scope used by ELM.
-- The target organization must exist and be ready to receive the migrated repository, including any single sign-on (SSO) configuration and team or user access required after cutover.
-- A GitHub Enterprise admin creates the PAT, uses it to create the service connection in Azure DevOps, and then shares the service connection ID with the migration operator.
--->
-
-<!-- TODO: When the Azure Boards connection feature ships, add a requirement here that the Azure Boards GitHub app is installed in the target organization. Confirm with engineering who installs it (GitHub Enterprise admin via GitHub Marketplace?) and link to the install steps. -->
-
 ## Authentication setup
 
 Create two PATs in GitHub:
@@ -88,7 +80,10 @@ Create two PATs in GitHub:
 1. Select **Configure SSO** to grant the PAT access to the target organization.
 1. Sign in to your Azure DevOps organization.
 1. Go to **Project Settings** > **Pipelines** > **Service connections**.
-1. Select **New service connection**, choose **GitHub Enterprise Cloud with data residency**, and then select **Next**.
+1. Select **New service connection**, choose **GitHub Enterprise Server**, and then select **Next**.
+
+   :::image type="content" source="media/complete-prerequisites/github-enterprise-server-service-connection.png" alt-text="Screenshot showing the GitHub Enterprise Server service connection form in Azure DevOps service connection dialog." border="true":::
+
 1. For **Authentication method**, select **Personal Access Token**.
 1. Enter the GitHub Enterprise URL and paste the GitHub PAT from step 3.
 1. Verify and save the service connection.

@@ -204,6 +204,7 @@ Pull requests and branch policies let teams enforce best practices for reviewing
 
 For more information, see the following articles:
 
+- [Available pull request status checks](available-pr-status-checks.md)
 - [Customize and extend pull request workflows with pull request status](pull-request-status.md)
 - [Create a PR status server with Node.js](create-pr-status-server.md)
 - [Configure a branch policy for an external service](pr-status-policy.md)

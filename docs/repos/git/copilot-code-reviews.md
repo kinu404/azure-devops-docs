@@ -5,7 +5,8 @@ description: Learn how to enable and configure GitHub Copilot code review for pu
 ms.service: azure-devops-repos
 ms.subservice: azure-devops-repos-git
 ms.topic: how-to
-ms.date: 06/29/2026
+ai-usage: ai-assisted
+ms.date: 07/09/2026
 ms.author: chcomley
 author: chcomley
 ---
@@ -15,7 +16,7 @@ author: chcomley
 [!INCLUDE [version-eq-azure-devops](../../includes/version-eq-azure-devops.md)]
 
 > [!IMPORTANT]
-> This feature is in limited public **preview** and requires sign-up. To request access for your organization, [sign up for the public preview](https://aka.ms/AzureReposCopilotCodeReviewPreview).
+> This feature is in limited public **preview**.
 >
 > Functionality might change or be removed without notice. Preview features have no Service Level Agreement (SLA) and limited support.
 
@@ -52,19 +53,6 @@ After organization-level access is enabled, a repository owner turns on Copilot 
 1. On the **Settings** tab, toggle **Enable Copilot code review for pull requests in this repository** to **On**.
 
    :::image type="content" source="media/copilot-code-reviews/repository-level-preview-feature.png" alt-text="Repository settings page with the Enable Copilot code review for pull requests toggle set to On.":::
-
-## Enable Copilot code review for individual users
-
-After you enable the feature at the organization and repository levels, individual users can opt in through **Preview features**.
-
-1. Select your user avatar in the top right, and then select **Preview features**.
-1. Set the scope to **for me**.
-1. Locate **Copilot Code Review for Pull Requests** and toggle it to **On**.
-
-   :::image type="content" source="media/copilot-code-reviews/individual-level-preview-feature.png" alt-text="Preview features panel with Copilot Code Review for Pull Requests set to On.":::
-
-> [!TIP]
-> A Project Collection Administrator can set the scope to **for this organization** to enable the preview for all users at once.
 
 To verify the feature is enabled, open any pull request in the repository. **GitHub Copilot** should now appear as an available reviewer in the **Reviewers** list.
 
@@ -156,20 +144,6 @@ Create an Azure budget that notifies you when spending reaches a threshold you s
 
 When spending reaches a threshold, Azure sends an email within an hour of the next evaluation. To review triggered alerts, select **Cost Management** > **Cost alerts**. To keep alert emails out of your junk folder, add `azure-noreply@microsoft.com` to your approved senders. For more information, see [Create and manage budgets](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?tabs=psbudget).
 
-## Frequently asked questions (FAQs)
-
-### Where can I find the list prices that I'm charged for tokens?
-
-See [Models and pricing](https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing#anthropic) in the GitHub Copilot documentation.
-
-### What factors influence the number of tokens consumed by a code review?
-
-Token consumption depends on factors such as the size of the repository, the size of the change, and the complexity of the code being reviewed.
-
-### Do credits I purchase with Copilot subscriptions count toward code review usage in Azure DevOps? Can I use AI credits from a GitHub Copilot plan?
-
-No, usage in Azure DevOps doesn't use AI credits from GitHub Copilot plans.
-
 ## Turn off Copilot code review
 
 To stop using Copilot code review, set the toggle to **Off** at the scope you want to disable:
@@ -186,6 +160,60 @@ To report issues or share feedback about this preview, visit the [Azure DevOps D
 
 > [!div class="nextstepaction"]
 > [Review pull requests](review-pull-requests.md)
+
+## Frequently asked questions (FAQs)
+
+### Q: Where can I find the list prices that I'm charged for tokens?
+
+A: See [Models and pricing](https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing#anthropic) in the GitHub Copilot documentation.
+
+### Q: What factors influence the number of tokens consumed by a code review?
+
+A: Token consumption depends on factors such as the size of the repository, the size of the change, and the complexity of the code being reviewed.
+
+### Q: Do credits I purchase with Copilot subscriptions count toward code review usage in Azure DevOps? Can I use AI credits from a GitHub Copilot plan?
+
+A: No, usage in Azure DevOps doesn't use AI credits from GitHub Copilot plans.
+
+### Q: Is customer code or pull request review content used to train or improve foundation models?
+
+A: No. Interaction data used for Copilot code review, including pull request diffs, prompts, responses, suggestions, and related review context, isn't used to train or improve foundation models.
+
+### Q: What customer data is retained during or after a code review?
+
+A: Data handling and retention follow GitHub Copilot policy documentation. Azure Repos doesn't publish a separate retention schedule for Copilot code review.
+
+### Q: Are pull request diffs, prompts, generated suggestions, or telemetry stored beyond request processing? If retained, what are the retention periods?
+
+A: For current storage and retention details, including any retention-related policy updates, see [GitHub Copilot trust and privacy documentation](https://copilot.github.trust.page/faq). Azure Repos doesn't currently publish a separate feature-specific retention period table for Copilot code review.
+
+### Q: Where is customer content processed and stored for Copilot code review?
+
+A: Copilot code review in Azure Repos is powered by GitHub Copilot. Data residency for GitHub Copilot doesn't align with Azure DevOps organization data residency boundaries for this preview feature. For example, if your Azure DevOps organization is hosted in the EU, Copilot code review processing might still occur in another geography, such as the United States.
+
+### Q: Does GitHub Copilot Data Residency apply to Copilot code review for Azure Repos?
+
+A: For this preview feature, don't assume Azure DevOps organization geography determines Copilot code review processing geography. Review [GitHub Copilot trust and privacy documentation](https://copilot.github.trust.page/faq) for current data residency scope and boundaries.
+
+### Q: Does Copilot code review for Azure Repos follow the same data handling commitments as GitHub Copilot Business and GitHub Copilot Enterprise?
+
+A: Yes, Copilot code review in Azure Repos follows GitHub Copilot data handling policies. For current commitments, see [GitHub Copilot trust and privacy documentation](https://copilot.github.trust.page/faq).
+
+### Q: What customer-facing compliance documentation can I share with security and compliance teams?
+
+A: Use these official references:
+
+- [GitHub Copilot Trust Center FAQ](https://copilot.github.trust.page/faq)
+- [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+- [About GitHub Copilot code review](https://docs.github.com/copilot/using-github-copilot/code-review/using-copilot-code-review)
+
+### Q: Are there preview-specific limitations or exceptions I should be aware of?
+
+A: Yes. Copilot code review for Azure Repos is in limited public preview:
+
+- Preview features can change or be removed without notice.
+- Preview features have no Service Level Agreement (SLA) and limited support.
+- Data residency for this feature doesn't align with Azure DevOps organization data residency boundaries.
 
 ## Related content
 

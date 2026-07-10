@@ -3,7 +3,7 @@ title: Agent software version 5
 description: Learn how to run pipelines using the version 5 agent software.
 monikerRange: 'azure-devops'
 ms.topic: concept-article
-ms.date: 06/02/2026
+ms.date: 07/07/2026
 ---
 
 # Agent software version 5
@@ -11,7 +11,7 @@ ms.date: 06/02/2026
 The pipelines team is upgrading the agent software from version 4.x to version 5.x (using .NET 10). We highly recommend upgrading your agents to version 5.x.
 
 > [!NOTE]
-> The Windows ARM64 agent is now available in **public preview** for Windows 11. For more information, see the [supported operating systems](#upgrade-to-5x-agent-on-supported-operating-systems) section.
+> The Windows ARM64 agent is generally available for Windows 11. For more information, see the [supported operating systems](#upgrade-to-5x-agent-on-supported-operating-systems) section.
 
 ## Upgrade to 5.x agent on supported operating systems
 
@@ -51,10 +51,8 @@ The following operating systems support self-hosted 4.x agents, but aren't suppo
     * macOS 13.0 "Ventura"
 * **Windows**
   * Client OS
-    * Windows 10
-      * 1607
     * Windows 11
-      * 23H2, 22H2, 21H2
+      * 22H2, 21H2
 
 > [!NOTE]
 > The previous list is a partial list of commonly used operating systems that don't support .NET 10 and the 5.x agent. See [.NET 10 - Out of support OS versions](https://github.com/dotnet/core/blob/main/release-notes/10.0/supported-os.md#out-of-support-os-versions) for the full list of operating systems that are out of support for .NET 10.

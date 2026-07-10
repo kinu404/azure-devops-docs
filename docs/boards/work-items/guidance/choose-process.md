@@ -38,6 +38,21 @@ The default processes mainly differ in the work item types they provide for plan
 
 If you're not sure which process fits your team, use the following scenarios as a starting point:
 
+## Determine your project's process
+
+To find which process your project uses:
+
+1. Sign in to your Azure DevOps project.
+1. Select **Project settings** > **Process**.
+
+  The process name appears at the top of the page (for example, **Agile**, **Scrum**, **Basic**, or **CMMI**).
+
+For more information, see [Manage projects](../../../organizations/projects/about-projects.md).
+
+### Choose the right process
+
+If you're not sure which process fits your team, use the following scenarios as a starting point:
+
 | Scenario | Recommended process | Why |
 |---|---|---|
 | You're new to Azure Boards or want the lightest-weight tracking. | **Basic** | Three work item types (Epic, Issue, Task) and a simple `To Do` / `Doing` / `Done` workflow. |

@@ -62,9 +62,7 @@ If your migration is in **Failed** status during the **Cutover** stage, check `e
 
 | Symptom | Likely cause | Resolution |
 |---|---|---|
-| Azure DevOps repo stuck in read-only state | Cutover failed partway through. | Contact the ELM team. Don't attempt to manually re-enable Azure DevOps write access. |
-
-<!-- TODO: "Contact the ELM team" appears here but no support channel is documented anywhere in the docset. Add a support/contact section (preview support email, internal escalation alias, or Developer Community link) and link to it from every "Contact the ELM team" instruction. -->
+| Azure DevOps repo stuck in read-only state | Cutover failed partway through. | Restore write access by abandoning the migration with the `--remove-read-only` flag: `az devops migrations abandon --repository-id <guid> --org <url> --remove-read-only --yes`. This flag sends `removeReadOnly=true`, which returns the source Azure DevOps repository to read-write and drops the migration. Only run it if you intend to stop the migration rather than retry the cutover. |
 
 ## Pipeline rewiring errors
 

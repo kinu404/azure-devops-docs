@@ -177,10 +177,10 @@ Below is a list of investments currently on our roadmap.
       </tr>   
       <tr>
         <td>
-            <a href="/azure/devops/release-notes/roadmap/2026/boards/boards-select-model" data-raw-source="[Select a model for Copilot Cloud Agent integration](/azure/devops/release-notes/roadmap/2026/general-remote-ado-mcp-server)">Select a model for Copilot Cloud Agent integration</a>
+            <a href="/azure/devops/release-notes/2026/sprint-275-update#coding-agent-model-selection-option" data-raw-source="[Select a model for Copilot Cloud Agent integration](/azure/devops/release-notes/2026/sprint-275-update#coding-agent-model-selection-option)">Select a model for Copilot Cloud Agent integration</a>
          </td>
          <td>Boards</td>
-         <td>2026 Q2</td>
+         <td><img src="roadmap/2023/media/checkmark.png" alt="Done" />2026 Q2</td>
       </tr>         
     </tbody>
 </table>
@@ -307,15 +307,12 @@ Below, you'll find several investments that we plan to deliver as part of this i
             <th>Area</th>
         </tr>
     </thead>
-    <tbody>       
-      <td rowspan="15"><strong>2026 Q2</strong></td>
-      <td><a href="/azure/devops/release-notes/roadmap/2023/commits-search" data-raw-source="[Commits search](/azure/devops/release-notes/roadmap/2023/commits-search)">Commits search</a></td>
-        <td>General</td>
-      </tr>
-      <tr>          
-        <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a></td>
-        <td>General</td>
-      </tr>
+      <tbody>       
+      <tr>
+         <td rowspan="11"><strong>2026 Q2</strong></td>
+         <td><a href="/azure/devops/release-notes/roadmap/2023/commits-search" data-raw-source="[Commits search](/azure/devops/release-notes/roadmap/2023/commits-search)">Commits search</a></td>
+         <td>General</td>
+      </tr>      
       <tr>
          <td><a href="/azure/devops/release-notes/roadmap/2025/ghazdo/default-setup" data-raw-source="[CodeQL default setup (one-click enablement)](/azure/devops/release-notes/roadmap/2025/ghazdo/default-setup)">CodeQL default setup (one-click enablement)</a></td>
          <td>GitHub Advanced Security for Azure DevOps</td>
@@ -323,11 +320,7 @@ Below, you'll find several investments that we plan to deliver as part of this i
       <tr>
          <td><a href="/azure/devops/release-notes/roadmap/2025/boards/improved-filter-experience-boards-backlogs" data-raw-source="[Filter by additional fields on sprint backlog and board](/azure/devops/release-notes/roadmap/2025/boards/improved-filter-experience-boards-backlogs)">Filter by additional fields on sprint backlog and board</a></td>
          <td>Boards</td>
-      </tr>
-      <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards" data-raw-source="[Show pull request annotations on cards](/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards)">Show pull request annotations on cards</a></td>
-         <td>Boards</td>
-      </tr>       
+      </tr>          
       <tr>
         <td><a href="/azure/devops/release-notes/roadmap/macos-agents-apple-silicon" data-raw-source="[Hosted macOS agents on Apple Silicon](/azure/devops/release-notes/roadmap/agents-apple-silicon)">Hosted macOS agents on Apple Silicon</a></td>
         <td>Pipelines</td>
@@ -359,15 +352,29 @@ Below, you'll find several investments that we plan to deliver as part of this i
       <tr>
          <td><a href="/azure/devops/release-notes/roadmap/2026/testplans/Actual-Test-Result" data-raw-source="[Support Capturing of Actual Test Result](/azure/devops/release-notes/roadmap/2026/testplans/Actual-Test-Result)">Support Capturing of Actual Test Result</a></td>
          <td>Test Plans</td>
+      </tr>        
+      <tr>
+         <td rowspan="5"><strong>2026 Q3</strong></td>
+         <td><a href="/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview" data-raw-source="[Remote Azure DevOps MCP Server (GA)](/azure/devops/release-notes/2026/sprint-271-update#remote-mcp-server-public-preview)">Remote Azure DevOps MCP Server</a></td>
+         <td>General</td>         
+      </tr> 
+      <tr>
+        <td><a href="/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview" data-raw-source="[Copilot Code reviews for Azure Repos (public preview)](/azure/devops/release-notes/2026/sprint-275-update#copilot-code-reviews-for-azure-repos-limited-public-preview)">Copilot Code reviews for Azure Repos (public preview)</a></td>
+        <td>Repos</td>
       </tr>
+      <tr>          
+        <td><a href="/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards" data-raw-source="[Show pull request annotations on cards](/azure/devops/release-notes/roadmap/2026/boards/pull-request-status-on-work-item-cards)">Show pull request annotations on cards</a></td>
+        <td>Boards</td>
+      </tr>
+      <tr>
+         <td><a href="/azure/devops/release-notes/roadmap/2026/boards/bulk-attachment-actions" data-raw-source="[Bulk attachment actions in Azure Boards](/azure/devops/release-notes/roadmap/2026/boards/bulk-attachment-actions)">Bulk attachment actions in Azure Boards</a></td>
+         <td>Boards</td>
+      </tr>     
       <tr>
          <td><a href="/azure/devops/release-notes/roadmap/2026/wiki-monaco-editor" data-raw-source="[Replace existing Wiki editor with Monaco Editor](/azure/devops/release-notes/roadmap/2026/wiki-monaco-editor)">Replace existing Wiki editor with Monaco Editor</a></td>
          <td>Wiki</td>
-      </tr>
+      </tr> 
       <tr>
-         <td><a href="/azure/devops/release-notes/roadmap/2026/wiki-monaco-editor" data-raw-source="[Replace existing Wiki editor with Monaco Editor](/azure/devops/release-notes/roadmap/2026/wiki-monaco-editor)">Replace existing Wiki editor with Monaco Editor</a></td>
-         <td>Wiki</td>
-      </tr>
       <td rowspan="16"><strong>Future</strong></td>
         <td><a href="/azure/devops/release-notes/roadmap/auditing-ga" data-raw-source="[Auditing GA](/azure/devops/release-notes/roadmap/auditing-ga)">Auditing GA</a></td>
         <td>General</td>
